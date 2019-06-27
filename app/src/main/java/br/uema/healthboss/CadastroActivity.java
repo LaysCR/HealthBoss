@@ -18,7 +18,7 @@ public class CadastroActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(CadastroActivity.this, LoginActivity.class);
-                onStop();
+                finish();
                 startActivity(intent);
             }
         });
